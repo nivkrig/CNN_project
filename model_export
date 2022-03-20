@@ -60,7 +60,8 @@ predict = np.argmax(predict)
 print(predict)
 
 
-
+###################################################################
+#new notebook
 
 import numpy as np
 import cv2
