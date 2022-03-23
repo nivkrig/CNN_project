@@ -54,7 +54,7 @@ np.seterr(divide = 'ignore')
 np.log(0)
 ```
 #### I initialize the theta valuables again because they were not reseting in value as I ran the code
-#### the second loop results in inreasonable values aswell as a warning for the np.exp() function
+#### the second loop results in unreasonable values aswell as a warning for the np.exp() function
 ```
 theta0 = []
 theta1 = []
