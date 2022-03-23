@@ -34,6 +34,7 @@ def sigmoid(in_z):
     return out_z
 ```
 #### initilalzie the variables that I will use for the mathematical calculation 
+#### was getting a warning for log(0), when gz = 0, so I added 'ignore' but I ended up using a logic operation anyway
 ```
 theta0 = []
 theta1 = []
