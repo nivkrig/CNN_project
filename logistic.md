@@ -1,4 +1,4 @@
-###file starts with importing the data and libraries
+### file starts with importing the data and libraries
 
 ```
 import matplotlib
@@ -33,7 +33,7 @@ def sigmoid(in_z):
     out_z = 1/(1 + np.exp(-in_z))
     return out_z
 ```
-####initilalzie the variables that I will use for the mathematical calculation 
+#### initilalzie the variables that I will use for the mathematical calculation 
 ```
 theta0 = []
 theta1 = []
@@ -100,7 +100,7 @@ print(run)
 ```
 
 
-###Sklean version
+### Sklean version
 ```
 from sklearn.model_selection import cross_validate
 from sklearn.model_selection import train_test_split
@@ -127,12 +127,12 @@ accuracy_list.append(100*log_reg_acc)
 ```
 print("Accuracy of Logistic Regression is : ", "{:.2f}%".format(100* log_reg_acc))
 ```
-####obtain theta
+#### obtain theta
 ```
 log_reg.intercept_[0]
 w1, w2 = log_reg.coef_.T
 ```
-####print to be used for ploting and observation 
+#### print to be used for ploting and observation 
 ```
 print(w1)
 print(w2)
