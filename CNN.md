@@ -59,9 +59,9 @@ model.compile(optimizer='adam',
 history = model.fit(x_train, y_train, epochs=6)
 model.evaluate(x_test,  y_test, verbose=2)
 ```
-```
+
 ### Model saves to a .py file
-```
+
 
 ```
 model.save('model')
@@ -77,9 +77,7 @@ predict = np.argmax(predict)
 print(predict)
 ```
 
-```
 ### In a separate document
-```
 
 ```
 import numpy as np
@@ -90,9 +88,9 @@ import tensorflow as tf
 from tensorflow.keras.models import model_from_json
 print(h5py.__version__)
 ```
-```
+
 ### opening the file crashes my computers
-```
+
 ```
 model = keras.models.load_model('model')
 
