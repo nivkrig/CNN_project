@@ -61,7 +61,7 @@ history = model.fit(x_train, y_train, epochs=6)
 model.evaluate(x_test,  y_test, verbose=2)
 ```
 
-#### Model saves to a .py file
+#### Model saves to a .py file ( try save .h5) (, save_format = "h5") or tf
 
 
 ```
